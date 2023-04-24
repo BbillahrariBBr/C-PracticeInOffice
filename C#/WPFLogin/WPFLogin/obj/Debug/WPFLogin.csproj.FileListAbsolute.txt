@@ -1,0 +1,17 @@
+E:\BB\Code\C#\WPFLogin\WPFLogin\bin\Debug\WPFLogin.exe.config
+E:\BB\Code\C#\WPFLogin\WPFLogin\bin\Debug\WPFLogin.exe
+E:\BB\Code\C#\WPFLogin\WPFLogin\bin\Debug\WPFLogin.pdb
+E:\BB\Code\C#\WPFLogin\WPFLogin\obj\Debug\WPFLogin.csprojAssemblyReference.cache
+E:\BB\Code\C#\WPFLogin\WPFLogin\obj\Debug\MainWindow.g.cs
+E:\BB\Code\C#\WPFLogin\WPFLogin\obj\Debug\View\LoginView.g.cs
+E:\BB\Code\C#\WPFLogin\WPFLogin\obj\Debug\App.g.cs
+E:\BB\Code\C#\WPFLogin\WPFLogin\obj\Debug\WPFLogin_MarkupCompile.cache
+E:\BB\Code\C#\WPFLogin\WPFLogin\obj\Debug\WPFLogin_MarkupCompile.lref
+E:\BB\Code\C#\WPFLogin\WPFLogin\obj\Debug\MainWindow.baml
+E:\BB\Code\C#\WPFLogin\WPFLogin\obj\Debug\View\LoginView.baml
+E:\BB\Code\C#\WPFLogin\WPFLogin\obj\Debug\WPFLogin.g.resources
+E:\BB\Code\C#\WPFLogin\WPFLogin\obj\Debug\WPFLogin.Properties.Resources.resources
+E:\BB\Code\C#\WPFLogin\WPFLogin\obj\Debug\WPFLogin.csproj.GenerateResource.cache
+E:\BB\Code\C#\WPFLogin\WPFLogin\obj\Debug\WPFLogin.csproj.CoreCompileInputs.cache
+E:\BB\Code\C#\WPFLogin\WPFLogin\obj\Debug\WPFLogin.exe
+E:\BB\Code\C#\WPFLogin\WPFLogin\obj\Debug\WPFLogin.pdb
