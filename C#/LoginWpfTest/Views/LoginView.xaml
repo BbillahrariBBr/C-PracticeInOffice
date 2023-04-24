@@ -5,6 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:LoginWpfTest.Views"
              xmlns:vm="clr-namespace:LoginWpfTest.ViewModels"
+             xmlns:validation="clr-namespace:LoginWpfTest.Validations"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
 
@@ -35,8 +36,28 @@
             <TextBox Grid.Row="1"
                      Padding="0,5"
                      Width="255"
-                     HorizontalAlignment="Left"
-                     Text="{Binding UserName, UpdateSourceTrigger=PropertyChanged}"/>
+                     HorizontalAlignment="Left">
+                <TextBox.Text>
+                    <Binding Path="UserName"
+                             UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <validation:UserNameValidationRule/>
+                        </Binding.ValidationRules>
+                    </Binding>
+
+                </TextBox.Text>
+                <TextBox.Style>
+                    <Style TargetType="TextBox">
+                        <Style.Triggers>
+                            <Trigger Property="Validation.HasError" Value="True">
+                                <Setter Property="ToolTip"
+                                        Value="{Binding RelativeSource={x:Static RelativeSource.Self},
+                                    Path=(Validation.Errors)/ErrorContent}"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBox.Style>
+            </TextBox>
 
             <TextBlock Text="Password"
                        Grid.Row="2"
@@ -45,8 +66,28 @@
             <TextBox Grid.Row="3"
                      Padding="0,5"
                      Width="255"
-                     HorizontalAlignment="Left"
-                     Text="{Binding Password, UpdateSourceTrigger=PropertyChanged}"/>
+                     HorizontalAlignment="Left">
+                <TextBox.Text>
+                    <Binding Path="Password"
+                             UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <validation:PasswordValidationRule/>
+                        </Binding.ValidationRules>
+                    </Binding>
+
+                </TextBox.Text>
+                <TextBox.Style>
+                    <Style TargetType="TextBox">
+                        <Style.Triggers>
+                            <Trigger Property="Validation.HasError" Value="True">
+                                <Setter Property="ToolTip"
+                                        Value="{Binding RelativeSource={x:Static RelativeSource.Self},
+                                    Path=(Validation.Errors)/ErrorContent}"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBox.Style>
+            </TextBox>
 
         </Grid>
 

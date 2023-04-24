@@ -57,6 +57,8 @@
     </ApplicationDefinition>
     <Compile Include="Commands\RelayCommands.cs" />
     <Compile Include="Models\User.cs" />
+    <Compile Include="Validations\PasswordValidationRule.cs" />
+    <Compile Include="Validations\UserNameValidationRule.cs" />
     <Compile Include="ViewModels\LoginVM.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
     <Compile Include="Views\LoginView.xaml.cs">
