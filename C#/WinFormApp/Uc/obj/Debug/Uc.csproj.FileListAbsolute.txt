@@ -1,0 +1,12 @@
+C:\Users\AML USER\source\repos\WinFormApp\Uc\bin\Debug\Uc.dll
+C:\Users\AML USER\source\repos\WinFormApp\Uc\bin\Debug\Uc.pdb
+C:\Users\AML USER\source\repos\WinFormApp\Uc\obj\Debug\user.g.cs
+C:\Users\AML USER\source\repos\WinFormApp\Uc\obj\Debug\Uc_MarkupCompile.cache
+C:\Users\AML USER\source\repos\WinFormApp\Uc\obj\Debug\Uc_MarkupCompile.lref
+C:\Users\AML USER\source\repos\WinFormApp\Uc\obj\Debug\user.baml
+C:\Users\AML USER\source\repos\WinFormApp\Uc\obj\Debug\Uc.g.resources
+C:\Users\AML USER\source\repos\WinFormApp\Uc\obj\Debug\Uc.Properties.Resources.resources
+C:\Users\AML USER\source\repos\WinFormApp\Uc\obj\Debug\Uc.csproj.GenerateResource.cache
+C:\Users\AML USER\source\repos\WinFormApp\Uc\obj\Debug\Uc.csproj.CoreCompileInputs.cache
+C:\Users\AML USER\source\repos\WinFormApp\Uc\obj\Debug\Uc.dll
+C:\Users\AML USER\source\repos\WinFormApp\Uc\obj\Debug\Uc.pdb
