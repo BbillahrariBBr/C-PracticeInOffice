@@ -15,3 +15,4 @@ E:\BB\Code\C#\LoginWpfTest\obj\Debug\LoginWpfTest.g.resources
 E:\BB\Code\C#\LoginWpfTest\obj\Debug\LoginWpfTest.Properties.Resources.resources
 E:\BB\Code\C#\LoginWpfTest\obj\Debug\LoginWpfTest.csproj.GenerateResource.cache
 E:\BB\Code\C#\LoginWpfTest\obj\Debug\LoginWpfTest.csproj.CoreCompileInputs.cache
+E:\BB\Code\C#\LoginWpfTest\obj\Debug\LoginWpfTest.csprojAssemblyReference.cache

@@ -11,3 +11,16 @@ C:\Users\AML USER\source\repos\WinFormApp\WinFormApp\obj\Debug\WinFormApp.csproj
 C:\Users\AML USER\source\repos\WinFormApp\WinFormApp\obj\Debug\WinFormApp.csproj.CopyComplete
 C:\Users\AML USER\source\repos\WinFormApp\WinFormApp\obj\Debug\WinFormApp.exe
 C:\Users\AML USER\source\repos\WinFormApp\WinFormApp\obj\Debug\WinFormApp.pdb
+E:\BB\Code\C#\WinFormApp\WinFormApp\bin\Debug\WinFormApp.exe.config
+E:\BB\Code\C#\WinFormApp\WinFormApp\bin\Debug\WinFormApp.exe
+E:\BB\Code\C#\WinFormApp\WinFormApp\bin\Debug\WinFormApp.pdb
+E:\BB\Code\C#\WinFormApp\WinFormApp\bin\Debug\Uc.dll
+E:\BB\Code\C#\WinFormApp\WinFormApp\bin\Debug\Uc.pdb
+E:\BB\Code\C#\WinFormApp\WinFormApp\obj\Debug\WinFormApp.csprojAssemblyReference.cache
+E:\BB\Code\C#\WinFormApp\WinFormApp\obj\Debug\WinFormApp.Form1.resources
+E:\BB\Code\C#\WinFormApp\WinFormApp\obj\Debug\WinFormApp.Properties.Resources.resources
+E:\BB\Code\C#\WinFormApp\WinFormApp\obj\Debug\WinFormApp.csproj.GenerateResource.cache
+E:\BB\Code\C#\WinFormApp\WinFormApp\obj\Debug\WinFormApp.csproj.CoreCompileInputs.cache
+E:\BB\Code\C#\WinFormApp\WinFormApp\obj\Debug\WinFormApp.csproj.CopyComplete
+E:\BB\Code\C#\WinFormApp\WinFormApp\obj\Debug\WinFormApp.exe
+E:\BB\Code\C#\WinFormApp\WinFormApp\obj\Debug\WinFormApp.pdb
