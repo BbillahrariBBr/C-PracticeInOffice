@@ -6,20 +6,62 @@
              xmlns:local="clr-namespace:WinFromAndWpfSameProject"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <StackPanel
-        Height="450"
-        Width="800">
-        <Button x:Name="btnGotoWinForm"
-                Content="Goto WIn Form"
-                Height="35"
-                Width="120"
-                Margin="0,50,0,0"
-                HorizontalAlignment="Center" VerticalAlignment="Center" Click="BtnGotoWinForm_Click"
-            />
-        
+    <UserControl.Background>
+        <ImageBrush ImageSource="Res\images\logodesign.png"/>
+    </UserControl.Background>
+    <StackPanel Height="350" Width="300" HorizontalAlignment="Right" VerticalAlignment="Top">
+        <Image Source="Res\images\AML.jpg" Margin="0,0,0,0"  Width="200" Height="200" Panel.ZIndex="-2" HorizontalAlignment="Center" VerticalAlignment="Top" />
 
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0"
+                        Orientation="Horizontal"
+                        >
+                <Image Source="Res\images\server.png" HorizontalAlignment="Left"
+                       Height="20" Width="20" Margin="0,0,5,0"/>
+                <ComboBox Background="White" Width="200"
+                          FontSize="14" Margin="10,5,0,5"/>
+
+            </StackPanel>
+
+            <StackPanel Grid.Row="1"
+                        Orientation="Horizontal"
+                        >
+                <Image Source="Res\images\enterprise.png" HorizontalAlignment="Left"
+                       Height="20" Width="20" Margin="0,0,5,0"/>
+                <ComboBox Background="White" Width="200"
+                          FontSize="14" Margin="10,5,0,5"/>
+
+            </StackPanel>
+
+            <StackPanel Grid.Row="2"
+                        Orientation="Horizontal"
+                        >
+                <Image Source="Res\images\user.png" HorizontalAlignment="Left"
+                       Height="20" Width="20" Margin="0,0,5,0"/>
+                <TextBox Background="White" Width="200"
+                          FontSize="14" Margin="10,5,0,5"/>
+
+
+            </StackPanel>
+
+            <StackPanel Grid.Row="3"
+                        Orientation="Horizontal"
+                        >
+                <Image Source="Res\images\security_code.png" HorizontalAlignment="Left"
+                       Height="20" Width="20" Margin="0,0,5,0"/>
+                <PasswordBox Background="White" Width="200"
+                          FontSize="14" Margin="10,5,0,5"/>
+
+
+            </StackPanel>
+        </Grid>
     </StackPanel>
-
 </UserControl>
 
 

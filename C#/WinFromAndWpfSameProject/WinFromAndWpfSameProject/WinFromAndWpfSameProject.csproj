@@ -64,15 +64,6 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -92,5 +83,18 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Res\images\AML.jpg" />
+    <Content Include="Res\images\Coca-Cola-Symbol.png" />
+    <Resource Include="Res\images\enterprise.png" />
+    <Content Include="Res\images\lock.png" />
+    <Resource Include="Res\images\logodesign.png" />
+    <Content Include="Res\images\password %281%29.png" />
+    <Resource Include="Res\images\security_code.png" />
+    <Resource Include="Res\images\server.png" />
+    <Resource Include="Res\images\user.png" />
+    <Content Include="Res\images\username.png" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

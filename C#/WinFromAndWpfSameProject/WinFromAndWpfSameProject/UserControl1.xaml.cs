@@ -34,10 +34,10 @@ namespace WinFromAndWpfSameProject
             //this.Visibility = Visibility.Hidden;
             Form1 form = new Form1(true);
             form.ShowDialog();
-            
+
         }
 
 
-        
+
     }
 }
