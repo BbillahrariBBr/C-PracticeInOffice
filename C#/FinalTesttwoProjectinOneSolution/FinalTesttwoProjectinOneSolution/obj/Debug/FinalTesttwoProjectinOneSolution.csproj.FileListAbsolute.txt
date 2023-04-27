@@ -1,0 +1,13 @@
+E:\BB\Code\C#\FinalTesttwoProjectinOneSolution\FinalTesttwoProjectinOneSolution\bin\Debug\FinalTesttwoProjectinOneSolution.exe.config
+E:\BB\Code\C#\FinalTesttwoProjectinOneSolution\FinalTesttwoProjectinOneSolution\bin\Debug\FinalTesttwoProjectinOneSolution.exe
+E:\BB\Code\C#\FinalTesttwoProjectinOneSolution\FinalTesttwoProjectinOneSolution\bin\Debug\FinalTesttwoProjectinOneSolution.pdb
+E:\BB\Code\C#\FinalTesttwoProjectinOneSolution\FinalTesttwoProjectinOneSolution\bin\Debug\LoginUIWPF.dll
+E:\BB\Code\C#\FinalTesttwoProjectinOneSolution\FinalTesttwoProjectinOneSolution\bin\Debug\LoginUIWPF.pdb
+E:\BB\Code\C#\FinalTesttwoProjectinOneSolution\FinalTesttwoProjectinOneSolution\obj\Debug\FinalTesttwoProjectinOneSolution.csprojAssemblyReference.cache
+E:\BB\Code\C#\FinalTesttwoProjectinOneSolution\FinalTesttwoProjectinOneSolution\obj\Debug\FinalTesttwoProjectinOneSolution.frmMain.resources
+E:\BB\Code\C#\FinalTesttwoProjectinOneSolution\FinalTesttwoProjectinOneSolution\obj\Debug\FinalTesttwoProjectinOneSolution.Properties.Resources.resources
+E:\BB\Code\C#\FinalTesttwoProjectinOneSolution\FinalTesttwoProjectinOneSolution\obj\Debug\FinalTesttwoProjectinOneSolution.csproj.GenerateResource.cache
+E:\BB\Code\C#\FinalTesttwoProjectinOneSolution\FinalTesttwoProjectinOneSolution\obj\Debug\FinalTesttwoProjectinOneSolution.csproj.CoreCompileInputs.cache
+E:\BB\Code\C#\FinalTesttwoProjectinOneSolution\FinalTesttwoProjectinOneSolution\obj\Debug\FinalTesttwoProjectinOneSolution.csproj.CopyComplete
+E:\BB\Code\C#\FinalTesttwoProjectinOneSolution\FinalTesttwoProjectinOneSolution\obj\Debug\FinalTesttwoProjectinOneSolution.exe
+E:\BB\Code\C#\FinalTesttwoProjectinOneSolution\FinalTesttwoProjectinOneSolution\obj\Debug\FinalTesttwoProjectinOneSolution.pdb
