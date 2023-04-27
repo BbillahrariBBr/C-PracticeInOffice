@@ -1,0 +1,13 @@
+E:\BB\Code\C#\wpfProjectinWinForm\wpfProjectinWinForm\bin\Debug\wpfProjectinWinForm.exe.config
+E:\BB\Code\C#\wpfProjectinWinForm\wpfProjectinWinForm\bin\Debug\wpfProjectinWinForm.exe
+E:\BB\Code\C#\wpfProjectinWinForm\wpfProjectinWinForm\bin\Debug\wpfProjectinWinForm.pdb
+E:\BB\Code\C#\wpfProjectinWinForm\wpfProjectinWinForm\obj\Debug\wpfProjectinWinForm.csprojAssemblyReference.cache
+E:\BB\Code\C#\wpfProjectinWinForm\wpfProjectinWinForm\obj\Debug\wpfProjectinWinForm.frm_Home.resources
+E:\BB\Code\C#\wpfProjectinWinForm\wpfProjectinWinForm\obj\Debug\wpfProjectinWinForm.Properties.Resources.resources
+E:\BB\Code\C#\wpfProjectinWinForm\wpfProjectinWinForm\obj\Debug\wpfProjectinWinForm.csproj.GenerateResource.cache
+E:\BB\Code\C#\wpfProjectinWinForm\wpfProjectinWinForm\obj\Debug\wpfProjectinWinForm.csproj.CoreCompileInputs.cache
+E:\BB\Code\C#\wpfProjectinWinForm\wpfProjectinWinForm\obj\Debug\wpfProjectinWinForm.csproj.CopyComplete
+E:\BB\Code\C#\wpfProjectinWinForm\wpfProjectinWinForm\obj\Debug\wpfProjectinWinForm.exe
+E:\BB\Code\C#\wpfProjectinWinForm\wpfProjectinWinForm\obj\Debug\wpfProjectinWinForm.pdb
+E:\BB\Code\C#\wpfProjectinWinForm\wpfProjectinWinForm\bin\Debug\WpfUserControl.dll
+E:\BB\Code\C#\wpfProjectinWinForm\wpfProjectinWinForm\bin\Debug\WpfUserControl.pdb

@@ -1,0 +1,14 @@
+E:\BB\Code\C#\wpfProjectinWinForm\LoginWpf\bin\Debug\LoginWpf.exe.config
+E:\BB\Code\C#\wpfProjectinWinForm\LoginWpf\bin\Debug\LoginWpf.exe
+E:\BB\Code\C#\wpfProjectinWinForm\LoginWpf\bin\Debug\LoginWpf.pdb
+E:\BB\Code\C#\wpfProjectinWinForm\LoginWpf\obj\Debug\LoginUI.g.cs
+E:\BB\Code\C#\wpfProjectinWinForm\LoginWpf\obj\Debug\App.g.cs
+E:\BB\Code\C#\wpfProjectinWinForm\LoginWpf\obj\Debug\LoginWpf_MarkupCompile.cache
+E:\BB\Code\C#\wpfProjectinWinForm\LoginWpf\obj\Debug\LoginWpf_MarkupCompile.lref
+E:\BB\Code\C#\wpfProjectinWinForm\LoginWpf\obj\Debug\LoginUI.baml
+E:\BB\Code\C#\wpfProjectinWinForm\LoginWpf\obj\Debug\LoginWpf.g.resources
+E:\BB\Code\C#\wpfProjectinWinForm\LoginWpf\obj\Debug\LoginWpf.Properties.Resources.resources
+E:\BB\Code\C#\wpfProjectinWinForm\LoginWpf\obj\Debug\LoginWpf.csproj.GenerateResource.cache
+E:\BB\Code\C#\wpfProjectinWinForm\LoginWpf\obj\Debug\LoginWpf.csproj.CoreCompileInputs.cache
+E:\BB\Code\C#\wpfProjectinWinForm\LoginWpf\obj\Debug\LoginWpf.exe
+E:\BB\Code\C#\wpfProjectinWinForm\LoginWpf\obj\Debug\LoginWpf.pdb
