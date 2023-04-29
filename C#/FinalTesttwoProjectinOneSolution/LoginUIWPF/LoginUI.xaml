@@ -73,12 +73,12 @@
                     <ComboBox x:Name="mcbServer"
                               Height="21"
                               Width="180"
-                              Margin="3,2,3,2"
+                              Margin="3,0,3,0"
                               FontSize="8.25"
                               FontFamily="Microsoft Sans Serif"/>
                 </StackPanel>
                 <StackPanel x:Name="pnlCompany"
-                            Margin="3,2,3,2"
+                            Margin="3,0,3,2"
                             Height="30"
                             Width="229"
                             Orientation="Horizontal">
@@ -88,12 +88,12 @@
                     <ComboBox x:Name="cmbCompany"
                               Height="21"
                               Width="180"
-                              Margin="3,2,3,2"
+                              Margin="3,0,3,0"
                               FontSize="8.25"
                               FontFamily="Microsoft Sans Serif"/>
                 </StackPanel>
                 <StackPanel x:Name="pnlUserName"
-                            Margin="3,2,3,2"
+                            Margin="3,0,3,2"
                             Height="30"
                             Width="229"
                             
@@ -105,11 +105,11 @@
                              Background="White"
                               Height="21"
                               Width="180"
-                              Margin="3,2,3,2"
+                              Margin="3,0,3,0"
                               FontFamily="Century Gothic"/>
                 </StackPanel>
                 <StackPanel x:Name="pnlPassword"
-                            Margin="3,2,3,2"
+                            Margin="3,0,3,2"
                             Height="30"
                             Width="229"
                             
@@ -121,9 +121,11 @@
                              Background="White"
                               Height="21"
                               Width="180"
-                              Margin="3,0,3,2"
+                              Margin="3,0,3,0"
                               FontFamily="Century Gothic"/>
                 </StackPanel>
+
+                
             </StackPanel>
         </Grid>
 
