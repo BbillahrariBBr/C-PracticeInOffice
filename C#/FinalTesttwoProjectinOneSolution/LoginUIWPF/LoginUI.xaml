@@ -57,15 +57,20 @@
             </StackPanel>
 
             <StackPanel Grid.Column="1"
-                        Margin="0,60,0,0"
-                        Width="250">
+                        Margin="0,45,0,0"
+                        Width="226"
+                        Height="330"
+                        Orientation="Vertical"
+                        VerticalAlignment="Top">
                 <Image Source="Resources/images/AML1.jpg"
+                       Width="200"
                        Height="168" Stretch="Fill"
+
                        />
                 <StackPanel x:Name="pnlServer"
                             Margin="3,2,3,2"
                             Height="30"
-                            Width="229"
+                            Width="226"
                             Orientation="Horizontal">
                     <Image Source="Resources/images/server (1).png"
                            Height="21"
@@ -80,7 +85,7 @@
                 <StackPanel x:Name="pnlCompany"
                             Margin="3,0,3,2"
                             Height="30"
-                            Width="229"
+                            Width="226"
                             Orientation="Horizontal">
                     <Image Source="Resources/images/enterprise (1).png"
                            Height="21"
@@ -95,7 +100,7 @@
                 <StackPanel x:Name="pnlUserName"
                             Margin="3,0,3,2"
                             Height="30"
-                            Width="229"
+                            Width="226"
                             
                             Orientation="Horizontal">
                     <Image Source="Resources/images/user (1).png"
@@ -111,7 +116,7 @@
                 <StackPanel x:Name="pnlPassword"
                             Margin="3,0,3,2"
                             Height="30"
-                            Width="229"
+                            Width="226"
                             
                             Orientation="Horizontal">
                     <Image Source="Resources/images/security-code (1).png"
@@ -124,9 +129,108 @@
                               Margin="3,0,3,0"
                               FontFamily="Century Gothic"/>
                 </StackPanel>
+                <StackPanel x:Name="pnlActionbtn"
+                            Margin="3,0,3,2"
+                            Height="30"
+                            Width="226"
+                            Orientation="Horizontal">
+                    <Button
+                        x:Name="btnLogin"
+                        Content="Login"
+                        Background="#2980B9"
+                        Foreground="white"
+                        FontFamily="Century Gothic"
+                        FontSize="10"
+                        FontWeight="Bold"
+                        Width="92"
+                        Height="32"
+                        Margin="3,2,3,2"
+                        VerticalContentAlignment="Center"
+                        HorizontalContentAlignment="Center"
+                        BorderThickness="0"
+                        />
 
-                
+                    <Button
+                        x:Name="btnCancel"
+                        Content="Cancel"
+                        Background="#2980B9"
+                        Foreground="white"
+                        FontFamily="Century Gothic"
+                        FontSize="10"
+                        FontWeight="Bold"
+                        Width="92"
+                        Height="32"
+                        Margin="3,2,3,2"
+                        VerticalContentAlignment="Center"
+                        HorizontalContentAlignment="Center"
+                        BorderThickness="0"
+                        />
+                </StackPanel>
             </StackPanel>
+
+            <Grid Grid.Column="1" VerticalAlignment="Bottom"
+                  Margin="0,15,15,15"
+                  Width="400"
+                  >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="250"/>
+                    <ColumnDefinition Width="150"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0"
+                            x:Name="pnlLoading">
+                    <ProgressBar
+                        x:Name="progressBar1"
+                        Height="12"
+                        Width="200"
+                        Margin="0" HorizontalAlignment="Left" RenderTransformOrigin="1,0.5"
+                        />
+                    <TextBlock
+                        x:Name="lblShowMSG"
+                        Text="Login successful Loading ..."
+                        
+                        />
+                </StackPanel>
+
+                <StackPanel Grid.Column="1"
+                            x:Name="pnlDvlp">
+                    <TextBlock
+                       
+                        Text="Developed By"
+                        HorizontalAlignment="Left"
+                        Margin="0,0,20,0"
+                        FontWeight="Bold"
+                        Background="#2980B9"
+                        />
+                    <TextBlock
+                       
+                        Text="MIS Team"
+                        HorizontalAlignment="Left"
+                        FontWeight="Bold"
+                        Margin="0,0,20,0"
+                        Background="#2980B9"
+                        />
+                </StackPanel>
+            </Grid>
+            <!--<StackPanel
+                VerticalAlignment="Bottom">
+                <Button
+                        
+                        Content="Login"
+                        Background="#2980B9"
+                        Foreground="white"
+                        FontFamily="Century Gothic"
+                        FontSize="10"
+                        FontWeight="Bold"
+                        Width="92"
+                        Height="32"
+                        Margin="3,2,3,2"
+                        VerticalContentAlignment="Center"
+                        HorizontalContentAlignment="Center"
+                        BorderThickness="0"
+                        />
+
+            </StackPanel>-->
+
         </Grid>
 
 
