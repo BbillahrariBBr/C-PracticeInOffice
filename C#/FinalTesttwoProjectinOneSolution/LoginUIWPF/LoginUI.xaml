@@ -146,9 +146,11 @@
                         Height="32"
                         Margin="3,2,3,2"
                         VerticalContentAlignment="Center"
-                        HorizontalContentAlignment="Center"
                         BorderThickness="0"
-                        />
+                        Padding="2,3"
+                        >
+                        
+                    </Button>
 
                     <Button
                         x:Name="btnCancel"
@@ -164,6 +166,7 @@
                         VerticalContentAlignment="Center"
                         HorizontalContentAlignment="Center"
                         BorderThickness="0"
+                        Padding="2,3"
                         />
                 </StackPanel>
             </StackPanel>
@@ -197,7 +200,7 @@
                        
                         Text="Developed By"
                         HorizontalAlignment="Left"
-                        Margin="0,0,20,0"
+                        Margin="30,0,0,0"
                         FontWeight="Bold"
                         Background="#2980B9"
                         />
@@ -206,7 +209,7 @@
                         Text="MIS Team"
                         HorizontalAlignment="Left"
                         FontWeight="Bold"
-                        Margin="0,0,20,0"
+                        Margin="30,0,0,0"
                         Background="#2980B9"
                         />
                 </StackPanel>
