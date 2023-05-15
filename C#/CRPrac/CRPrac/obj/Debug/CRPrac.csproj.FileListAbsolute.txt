@@ -56,3 +56,4 @@ E:\BB\Code\C#\CRPrac\CRPrac\obj\Debug\CRPrac.csproj.CoreCompileInputs.cache
 E:\BB\Code\C#\CRPrac\CRPrac\obj\Debug\CRPrac.csproj.CopyComplete
 E:\BB\Code\C#\CRPrac\CRPrac\obj\Debug\CRPrac.exe
 E:\BB\Code\C#\CRPrac\CRPrac\obj\Debug\CRPrac.pdb
+E:\BB\Code\C#\CRPrac\CRPrac\obj\Debug\CRPrac.ReportShowForm.resources
