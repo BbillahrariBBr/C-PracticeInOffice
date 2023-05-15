@@ -16,5 +16,10 @@ namespace CRPrac
         {
             InitializeComponent();
         }
+
+      
+
+        
+        
     }
 }
