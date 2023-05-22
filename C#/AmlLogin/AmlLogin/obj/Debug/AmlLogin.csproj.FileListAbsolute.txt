@@ -14,3 +14,4 @@ E:\BB\Code\C#\AmlLogin\AmlLogin\obj\Debug\AmlLogin.exe
 E:\BB\Code\C#\AmlLogin\AmlLogin\obj\Debug\AmlLogin.pdb
 E:\BB\Code\C#\AmlLogin\AmlLogin\obj\Debug\Views\Login.g.cs
 E:\BB\Code\C#\AmlLogin\AmlLogin\obj\Debug\Views\Login.baml
+E:\BB\Code\C#\AmlLogin\AmlLogin\obj\Debug\AmlLogin.csprojAssemblyReference.cache

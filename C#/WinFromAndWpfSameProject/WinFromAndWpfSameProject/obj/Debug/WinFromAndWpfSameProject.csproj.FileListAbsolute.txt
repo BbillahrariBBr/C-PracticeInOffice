@@ -12,3 +12,4 @@ E:\BB\Code\C#\WinFromAndWpfSameProject\WinFromAndWpfSameProject\obj\Debug\WinFro
 E:\BB\Code\C#\WinFromAndWpfSameProject\WinFromAndWpfSameProject\obj\Debug\WinFromAndWpfSameProject.csproj.CoreCompileInputs.cache
 E:\BB\Code\C#\WinFromAndWpfSameProject\WinFromAndWpfSameProject\obj\Debug\WinFromAndWpfSameProject.exe
 E:\BB\Code\C#\WinFromAndWpfSameProject\WinFromAndWpfSameProject\obj\Debug\WinFromAndWpfSameProject.pdb
+E:\BB\Code\C#\WinFromAndWpfSameProject\WinFromAndWpfSameProject\obj\Debug\WinFromAndWpfSameProject.csprojAssemblyReference.cache
