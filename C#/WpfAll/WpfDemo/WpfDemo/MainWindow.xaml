@@ -13,11 +13,13 @@
             <ColumnDefinition Width="auto" />
             <ColumnDefinition Width="auto" />
             <ColumnDefinition Width="auto" />
+            
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="20" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
@@ -31,11 +33,46 @@
                    FontWeight="Bold" Text="First Name"/>
         <TextBox x:Name="tbxFirstName" 
                  Grid.Column="2" Grid.Row="2" Width="150"/>
+
+        <ComboBox x:Name="cmbxMy" Grid.Column="1"
+                  Grid.Row="3" Grid.ColumnSpan="2" Margin="10">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image MaxHeight="20" MaxWidth="20" 
+               Source="D:\Downloads\csharp.png"/>
+                        <TextBlock Text="{Binding FirstName}"/>
+                        <TextBlock Text=" "/>
+                        <TextBlock Text="{Binding LastName}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        
         <Button x:Name="btnSubmit" Content="Run Me"
-                Grid.Column="1" Grid.Row="3" 
-                Grid.ColumnSpan="2" Margin="10" Click="BtnSubmit_Click"/>
-
-
-
+                Grid.Column="1" Grid.Row="4" 
+                Grid.ColumnSpan="2" Margin="10"
+                Click="BtnSubmit_Click"/>
+        <!--<Image Grid.Column="4" Grid.Row="1" 
+               Grid.RowSpan="6" 
+               Source="D:\Downloads\csharp.png"/>-->
+        <!--<MediaElement Grid.Column="4" Grid.Row="1" 
+               Grid.RowSpan="6" 
+               Source="D:\Downloads\MorningDua.mp4"/>-->
+        <ScrollViewer Grid.Column="4" Grid.Row="1" 
+                     Grid.RowSpan="6">
+            <StackPanel Orientation="Vertical" 
+                    >
+                <Image MaxHeight="200" MaxWidth="200" 
+               Source="D:\Downloads\csharp.png"/>
+                <Image MaxHeight="200" MaxWidth="200" 
+               Source="D:\Downloads\csharp.png"/>
+                <Image MaxHeight="200" MaxWidth="200" 
+               Source="D:\Downloads\csharp.png"/>
+                <Image MaxHeight="200" MaxWidth="200" 
+               Source="D:\Downloads\csharp.png"/>
+            </StackPanel>
+        </ScrollViewer>
+     
     </Grid>
 </Window>
