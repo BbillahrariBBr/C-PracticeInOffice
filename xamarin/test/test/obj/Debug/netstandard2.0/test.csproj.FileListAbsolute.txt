@@ -1,0 +1,15 @@
+G:\BB\Code\xamarin\test\test\bin\Debug\netstandard2.0\test.deps.json
+G:\BB\Code\xamarin\test\test\bin\Debug\netstandard2.0\test.dll
+G:\BB\Code\xamarin\test\test\bin\Debug\netstandard2.0\ref\test.dll
+G:\BB\Code\xamarin\test\test\bin\Debug\netstandard2.0\test.pdb
+G:\BB\Code\xamarin\test\test\obj\Debug\netstandard2.0\test.csproj.AssemblyReference.cache
+G:\BB\Code\xamarin\test\test\obj\Debug\netstandard2.0\test.GeneratedMSBuildEditorConfig.editorconfig
+G:\BB\Code\xamarin\test\test\obj\Debug\netstandard2.0\App.xaml.g.cs
+G:\BB\Code\xamarin\test\test\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+G:\BB\Code\xamarin\test\test\obj\Debug\netstandard2.0\test.AssemblyInfoInputs.cache
+G:\BB\Code\xamarin\test\test\obj\Debug\netstandard2.0\test.AssemblyInfo.cs
+G:\BB\Code\xamarin\test\test\obj\Debug\netstandard2.0\test.csproj.CoreCompileInputs.cache
+G:\BB\Code\xamarin\test\test\obj\Debug\netstandard2.0\XamlC.stamp
+G:\BB\Code\xamarin\test\test\obj\Debug\netstandard2.0\test.dll
+G:\BB\Code\xamarin\test\test\obj\Debug\netstandard2.0\refint\test.dll
+G:\BB\Code\xamarin\test\test\obj\Debug\netstandard2.0\test.pdb
