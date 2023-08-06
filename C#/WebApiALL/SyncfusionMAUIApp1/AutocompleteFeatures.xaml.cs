@@ -1,5 +1,8 @@
 ﻿using System.Collections.ObjectModel;
 namespace SyncfusionMAUIApp1;
+using Nager.Country;
+using Syncfusion.Maui.DataSource.Extensions;
+
 ///<summary>
 ///AutocompleteFeatures class
 ///</summary>
@@ -12,6 +15,12 @@ public partial class AutocompleteFeatures : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void SfAutocomplete_SelectionChanged(object sender, Syncfusion.Maui.Inputs.SelectionChangedEventArgs e)
+    {
+
+
+    }
 }
 ///<summary>
 ///AutocompleteFeatures Model class
@@ -47,5 +56,14 @@ public class SocialMediaViewModel
         this.SocialMedias.Add(new SocialMedia() { Name = "Vimeo", ID = 11 });
         this.SocialMedias.Add(new SocialMedia() { Name = "WhatsApp", ID = 12 });
         this.SocialMedias.Add(new SocialMedia() { Name = "YouTube", ID = 13 });
+    }
+}
+
+public class CountryViewModel
+{
+    public ObservableCollection<ICountryInfo> Countries { get; set; }
+    public CountryViewModel() {
+        var countryProvider = new CountryProvider();
+        this.Countries = countryProvider.GetCountries().ToObservableCollection();
     }
 }

@@ -3,10 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:SyncfusionMAUIApp1"      
             xmlns:editors="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
-             x:Class="SyncfusionMAUIApp1.AutocompleteFeatures" Title="Autocomplete">
+             x:Class="SyncfusionMAUIApp1.AutocompleteFeatures" Title="Autocomplete Demo">
     <ContentPage.BindingContext>
-        <local:SocialMediaViewModel />
+        <!--<local:SocialMediaViewModel />-->
+        <local:CountryViewModel></local:CountryViewModel>
     </ContentPage.BindingContext>
-    <editors:SfAutocomplete IsClearButtonVisible="True" HeightRequest="50" WidthRequest="200" ItemsSource="{Binding SocialMedias}" TextSearchMode="StartsWith" DisplayMemberPath="Name">
+    <editors:SfAutocomplete IsClearButtonVisible="True" 
+                            HeightRequest="50" 
+                            WidthRequest="200" 
+                            ItemsSource="{Binding Countries}" 
+                            TextSearchMode="Contains"
+                            Placeholder="Select a Country"
+                            PlaceholderColor="blue"
+                            Stroke="Red"
+                            SelectionChanged="SfAutocomplete_SelectionChanged"
+                            DisplayMemberPath="CommonName">
     </editors:SfAutocomplete>
 </ContentPage>
