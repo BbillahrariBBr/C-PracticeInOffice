@@ -1,0 +1,12 @@
+G:\BB\Code\C#\WebApiALL\EmpServices\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.dll.config
+G:\BB\Code\C#\WebApiALL\EmpServices\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.dll
+G:\BB\Code\C#\WebApiALL\EmpServices\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.pdb
+G:\BB\Code\C#\WebApiALL\EmpServices\EmployeeDataAccess\bin\Debug\EntityFramework.dll
+G:\BB\Code\C#\WebApiALL\EmpServices\EmployeeDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+G:\BB\Code\C#\WebApiALL\EmpServices\EmployeeDataAccess\bin\Debug\EntityFramework.xml
+G:\BB\Code\C#\WebApiALL\EmpServices\EmployeeDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+G:\BB\Code\C#\WebApiALL\EmpServices\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csproj.AssemblyReference.cache
+G:\BB\Code\C#\WebApiALL\EmpServices\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csproj.CoreCompileInputs.cache
+G:\BB\Code\C#\WebApiALL\EmpServices\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csproj.CopyComplete
+G:\BB\Code\C#\WebApiALL\EmpServices\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.dll
+G:\BB\Code\C#\WebApiALL\EmpServices\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.pdb
