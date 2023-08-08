@@ -74,5 +74,36 @@ namespace EmpServices.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
             }
         }
+
+        public HttpResponseMessage Delete(int id)
+        {
+            try
+            {
+                using (BakiDbEntities entities = new BakiDbEntities())
+                {
+                    var entity = entities.Employees.FirstOrDefault(e => e.Id == id);
+                    if (entity == null)
+                    {
+                        return Request.CreateErrorResponse(HttpStatusCode.NotFound, "Employee With id = " + id.ToString() + " not found");
+
+                    }
+                    else
+                    {
+                        entities.Employees.Remove(entity);
+                        entities.SaveChanges();
+                        return Request.CreateResponse(HttpStatusCode.OK);
+                    }
+
+
+                }
+
+            }
+
+            catch( Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
+            }
+            
+        }
     }
 }
