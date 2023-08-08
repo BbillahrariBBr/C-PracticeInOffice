@@ -1,3 +1,5 @@
+G:\BB\Code\C#\WebApiALL\EmpServices\obj\Debug\EmpServices.csproj.AssemblyReference.cache
+G:\BB\Code\C#\WebApiALL\EmpServices\obj\Debug\EmpServices.csproj.CoreCompileInputs.cache
 G:\BB\Code\C#\WebApiALL\EmpServices\bin\EmpServices.dll.config
 G:\BB\Code\C#\WebApiALL\EmpServices\bin\EmpServices.dll
 G:\BB\Code\C#\WebApiALL\EmpServices\bin\EmpServices.pdb
@@ -112,8 +114,6 @@ G:\BB\Code\C#\WebApiALL\EmpServices\bin\Microsoft.Owin.Security.MicrosoftAccount
 G:\BB\Code\C#\WebApiALL\EmpServices\bin\Microsoft.Owin.Security.OAuth.xml
 G:\BB\Code\C#\WebApiALL\EmpServices\bin\System.Web.Http.Owin.xml
 G:\BB\Code\C#\WebApiALL\EmpServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-G:\BB\Code\C#\WebApiALL\EmpServices\obj\Debug\EmpServices.csproj.AssemblyReference.cache
-G:\BB\Code\C#\WebApiALL\EmpServices\obj\Debug\EmpServices.csproj.CoreCompileInputs.cache
 G:\BB\Code\C#\WebApiALL\EmpServices\obj\Debug\EmpServices.csproj.CopyComplete
 G:\BB\Code\C#\WebApiALL\EmpServices\obj\Debug\EmpServices.dll
 G:\BB\Code\C#\WebApiALL\EmpServices\obj\Debug\EmpServices.pdb

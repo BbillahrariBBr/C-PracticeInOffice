@@ -18,11 +18,60 @@ namespace EmpServices.Controllers
             }
         }
 
-        public Employee Get(int id)
+
+        public HttpResponseMessage Get(int id)
         {
             using (BakiDbEntities entities = new BakiDbEntities())
+            { 
+                var entity = entities.Employees.FirstOrDefault(x => x.Id == id);
+                if (entity != null) {
+                    return Request.CreateResponse(HttpStatusCode.OK, entity);
+                
+                }
+                else
+                {
+                    return Request.CreateErrorResponse(HttpStatusCode.NotFound,"Employee with Id = " + id.ToString() + " not found.");
+                }
+            }
+        }
+
+        //public Employee Get(int id)
+        //{
+        //    using (BakiDbEntities entities = new BakiDbEntities())
+        //    {
+        //        return entities.Employees.FirstOrDefault(e => e.Id == id);
+        //    }
+        //}
+
+        //public void Post([FromBody] Employee employee)
+        //{
+        //    using (BakiDbEntities entity = new BakiDbEntities())
+        //    {
+        //        entity.Employees.Add(employee);
+        //        entity.SaveChanges();
+        //    }
+        //}
+
+        public HttpResponseMessage Post([FromBody]Employee employee)
+        {
+            try
             {
-                return entities.Employees.FirstOrDefault(e => e.Id == id);
+
+            
+                using (BakiDbEntities entity = new BakiDbEntities())
+                {
+                    entity.Employees.Add(employee);
+                    entity.SaveChanges();
+
+                    var message = Request.CreateResponse(HttpStatusCode.Created,employee);
+                    message.Headers.Location = new Uri(Request.RequestUri +"/"+ employee.Id.ToString());
+                    return message;
+                }
+            }
+
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
             }
         }
     }

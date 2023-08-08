@@ -10,17 +10,17 @@ using Newtonsoft.Json.Serialization;
 
 namespace EmpServices
 {
-    public class CustomJsonFormatter : JsonMediaTypeFormatter
-    {
-        public CustomJsonFormatter() { 
-            this.SupportedMediaTypes.Add(new System.Net.Http.Headers.MediaTypeHeaderValue("text/html"));
-        }
-        public override void SetDefaultContentHeaders(Type type, HttpContentHeaders headers, MediaTypeHeaderValue mediaType)
-        {
-            base.SetDefaultContentHeaders(type, headers, mediaType);
-            headers.ContentType = new MediaTypeHeaderValue("application/json");
-        }
-    }
+    //public class CustomJsonFormatter : JsonMediaTypeFormatter
+    //{
+    //    public CustomJsonFormatter() { 
+    //        this.SupportedMediaTypes.Add(new System.Net.Http.Headers.MediaTypeHeaderValue("text/html"));
+    //    }
+    //    public override void SetDefaultContentHeaders(Type type, HttpContentHeaders headers, MediaTypeHeaderValue mediaType)
+    //    {
+    //        base.SetDefaultContentHeaders(type, headers, mediaType);
+    //        headers.ContentType = new MediaTypeHeaderValue("application/json");
+    //    }
+    //}
     public static class WebApiConfig
     {
         public static void Register(HttpConfiguration config)
@@ -39,7 +39,7 @@ namespace EmpServices
                 defaults: new { id = RouteParameter.Optional }
             );
 
-            config.Formatters.Add(new CustomJsonFormatter());
+            //config.Formatters.Add(new CustomJsonFormatter());
 
             // remove xml formatters
             //config.Formatters.Remove(config.Formatters.XmlFormatter);
