@@ -10,7 +10,8 @@ namespace EmpServices.Controllers
 {
     public class EmployeesController : ApiController
     {
-        public IEnumerable<Employee> Get()
+        [HttpGet]
+        public IEnumerable<Employee> LoadEmployees()
         {
             using (BakiDbEntities entities = new BakiDbEntities())
             {
@@ -18,8 +19,25 @@ namespace EmpServices.Controllers
             }
         }
 
+        //public IEnumerable<Employee> GetSomething()
+        //{
+        //    using (BakiDbEntities entities = new BakiDbEntities())
+        //    {
+        //        return entities.Employees.ToList();
+        //    }
+        //}
 
-        public HttpResponseMessage Get(int id)
+
+        //public IEnumerable<Employee> Get()
+        //{
+        //    using (BakiDbEntities entities = new BakiDbEntities())
+        //    {
+        //        return entities.Employees.ToList();
+        //    }
+        //}
+
+        [HttpGet]
+        public HttpResponseMessage LoadEmployeeById(int id)
         {
             using (BakiDbEntities entities = new BakiDbEntities())
             { 
@@ -124,7 +142,7 @@ namespace EmpServices.Controllers
                         entity.Gender = employee.Gender;
                         entity.Salary = employee.Salary;
                         entities.SaveChanges();
-                        return Request.CreateResponse(HttpStatusCode.OK);
+                        return Request.CreateResponse(HttpStatusCode.OK, entity);
                     }
 
 
