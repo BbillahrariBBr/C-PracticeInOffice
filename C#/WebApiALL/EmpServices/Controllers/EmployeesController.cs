@@ -105,5 +105,36 @@ namespace EmpServices.Controllers
             }
             
         }
+
+        public HttpResponseMessage Put(int id, [FromBody]Employee employee)
+        {
+            try {
+                using (BakiDbEntities entities = new BakiDbEntities())
+                {
+                    var entity = entities.Employees.FirstOrDefault(e => e.Id == id);
+                    if (entity == null)
+                    {
+                        return Request.CreateErrorResponse(HttpStatusCode.NotFound, "Employee with Id= " + id.ToString() + " not found");
+                    }
+
+                    else
+                    {
+                        entity.FirstName = employee.FirstName;
+                        entity.LastName = employee.LastName;
+                        entity.Gender = employee.Gender;
+                        entity.Salary = employee.Salary;
+                        entities.SaveChanges();
+                        return Request.CreateResponse(HttpStatusCode.OK);
+                    }
+
+
+                }
+            }
+
+            catch ( Exception ex ) { 
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest,ex);
+            }
+            
+        }
     }
 }
