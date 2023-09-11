@@ -124,7 +124,7 @@ namespace EmpServices.Controllers
             
         }
 
-        public HttpResponseMessage Put(int id, [FromBody]Employee employee)
+        public HttpResponseMessage Put(int id, [FromUri]Employee employee)
         {
             try {
                 using (BakiDbEntities entities = new BakiDbEntities())
